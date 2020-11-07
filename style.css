@@ -1,0 +1,123 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+   width: 100%;
+   min-height: 100vh;
+   background: #ccc;
+   padding: 20px;
+}
+
+.invoice,
+.item,
+.gst{
+   background: #fff;
+   margin: 0 40px;
+   padding: 20px 60px 20px 20px;
+   border-radius: 5px;
+   margin-bottom: 1rem;
+   box-shadow: 0 0 10px #00000056;
+}
+.title{
+   margin-bottom: 1.5rem;
+   border-bottom: 1px solid #00000048;
+}
+
+.form{
+   display: flex;
+   font-size: 16px;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+._btn{
+   padding: 5px 12px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   margin-top: 2rem;
+   background: #ff8800;
+   border-radius: 50%;
+   font-size: 20px;
+   font-weight: 800;
+   height: fit-content;
+   color: #fff;
+}
+
+.form input,
+.form select,
+.gst form input{
+   border: none;
+   outline: none;
+   border-bottom: 1px solid #000000;
+   border-radius: 4px;
+   padding: 5px;
+   font-size: 16px;
+   width: 12rem;
+   margin-top: 1rem;
+}
+
+.gst-val{
+   display: flex;
+   margin-bottom: 1rem;
+}
+.gst-val h2{
+   margin-right: 3rem;
+}
+.gst-val h2 span{
+   font-weight: 500;
+   margin-left: 1rem;
+   border: 1px solid #000;
+   padding: 5px 10px;
+   border-radius: 5px;
+}
+.gst form{
+   margin-top: 1rem;
+   font-size: 18px;
+}
+
+.gst button{
+   padding: 2px 10px;
+   font-size: 18px;
+   margin-left: 2rem;
+   cursor: pointer;
+   border: none;
+   outline: none;
+   background: #ff8800;
+   color: #fff;
+   border-radius: 5px;
+}
+
+.gst .title{
+   margin-bottom: 2rem;
+}
+
+.form div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+}
+
+.item .title-wrapper{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.item .title-wrapper .top,
+.item .title-wrapper .bottom{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: space-between;
+}

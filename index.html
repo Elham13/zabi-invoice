@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <div class="wrapper">
+      <div class="invoice">
+         <h2 class="title">Invoice</h2>
+         <form action="#" class="form">
+            <div>
+               <label for="">Client name</label>
+               <select>
+                  <option value="none" selected disabled>Select</option>
+                  <option value="">Zabih</option>
+                  <option value="">Wahid</option>
+                  <option value="">Monir</option>
+               </select>
+            </div>
+            
+            <div>
+               <label for="">Invoice name</label>
+               <input type="text">
+            </div>
+            
+            <div>
+               <label for="">Date</label>
+               <input type="date" class="default-date">
+            </div>
+            
+         </form>
+      </div>
+
+      <div class="item">
+         <h2 class="title">Item</h2>
+         <form action="#" class="form">
+            <div class="title-wrapper">
+               <div class="top">
+                  <div>
+                     <label for="">Item name</label>
+                     <input type="text">
+                  </div>
+                  <div>
+                     <label for="">Description</label>
+                     <input type="text">
+                  </div>
+                  <div>
+                     <label for="">Amount</label>
+                     <input type="text">
+                  </div>
+                  <button class="_btn" title="Next">+</button>
+               </div>
+               <div class="bottom">
+                  <div>
+                     <input type="text">
+                  </div>
+                  <div>
+                     <input type="text">
+                  </div>
+                  <div>
+                     <input type="text">
+                  </div>
+                  <button class="_btn" title="Delete">-</button>      
+               </div>               
+            </div>
+         </form>
+      </div>    
+      
+      <div class="gst">
+         <h2 class="title">Result</h2>
+         <div class="gst-val">
+            <h2>SGST: <span>9%</span></h2>
+            <h2>SGST: <span>9%</span></h2>
+         </div>
+         
+         <form action="#">
+            <label for="">Total Amount</label>
+            <input type="text">
+            <button>Submit</button>
+         </form>
+      </div>
+   </div>
+   <script src="./app.js"></script>
+</body>
+</html>
